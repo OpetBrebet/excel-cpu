@@ -1,0 +1,18 @@
+.org 0x0
+    JMP ISR
+
+.org 0x4
+    JMP main
+
+.org 0x100
+main:
+    IN r0, 0xf
+    IN r1, 0xf
+    IN r2, 0xf
+    IN r3, 0xf
+    JMP main
+
+.org 0x200
+ISR:
+    IN r15, 0x7
+    RETI
