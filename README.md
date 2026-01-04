@@ -19,7 +19,7 @@ This project is a fully custom 8-bit CPU simulated with Excel. The CPU models re
 
 ## Instruction Set Architecture
 
-<img src="./assets/InstructionSetArchitecture.png" alt="Image of the ISA">
+[![Image of the ISA](./assets/InstructionSetArchitecture.png)](https://raw.githubusercontent.com/OpetBrebet/excel-cpu/refs/heads/main/assets/InstructionSetArchitecture.png)
 
 See the full spreadsheet [here](https://docs.google.com/spreadsheets/d/1iYksSgQVaDx2x8g_rPeAjbsAa2NUGommz_33XeF8mEM/edit)
 
